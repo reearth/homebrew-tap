@@ -2,28 +2,28 @@
 class Ezu < Formula
   desc "Command-line renderer for the Ezu Style Spec"
   homepage "https://github.com/reearth/ezu"
-  version "0.13.0"
+  version "0.13.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/reearth/ezu/releases/download/v0.13.0/ezu-v0.13.0-aarch64-apple-darwin.tar.gz"
-      sha256 "4a367cf16d89331321cb2445d91ec3bd03cf0f92fbbee673f1fb69e6cd10e290"
+      url "https://github.com/reearth/ezu/releases/download/v0.13.1/ezu-v0.13.1-aarch64-apple-darwin.tar.gz"
+      sha256 "6325c4f46984126113c8b044c5afbbb06cdcc7d89a0538536cfde130eea080c3"
     end
     on_intel do
-      url "https://github.com/reearth/ezu/releases/download/v0.13.0/ezu-v0.13.0-x86_64-apple-darwin.tar.gz"
-      sha256 "d9811d641b88ca66056eda492e4d438d0fead03cc7ca5ee134ad5efdec833091"
+      url "https://github.com/reearth/ezu/releases/download/v0.13.1/ezu-v0.13.1-x86_64-apple-darwin.tar.gz"
+      sha256 "23ac9a3197cd734ac3fc47486de2410e880b9775c51f886fbd78d5eae2fc4b5e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/reearth/ezu/releases/download/v0.13.0/ezu-v0.13.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "655acf70dc6caf2adbb1605aef2144e19e8eabebcda542ac6765cf74089b13b9"
+      url "https://github.com/reearth/ezu/releases/download/v0.13.1/ezu-v0.13.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9f5567c1c55bff1f4652edb0717f581899c67f2b5d864cece03698536c33c053"
     end
     on_intel do
-      url "https://github.com/reearth/ezu/releases/download/v0.13.0/ezu-v0.13.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ae3743ba26534882b6f2e8d43f01aa8087e75f6a13bc99eb1e973fae5d57e269"
+      url "https://github.com/reearth/ezu/releases/download/v0.13.1/ezu-v0.13.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5dc795df965ca4b44b6d1091256200336634b9cfb661f6f35b30f9a351565083"
     end
   end
 
